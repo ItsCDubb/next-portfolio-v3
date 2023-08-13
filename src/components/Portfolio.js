@@ -68,60 +68,99 @@ const Portfolio = () => {
                 </a>
               </li>
               <li>
-                <a onClick={handleFilterKeyChange("vimeo")}>Vimeo</a>
+                <a onClick={handleFilterKeyChange("react")}>React</a>
               </li>
               <li>
-                <a onClick={handleFilterKeyChange("youtube")}>Youtube</a>
+                <a onClick={handleFilterKeyChange("next")}>Next</a>
               </li>
+              {/* <li>
+                <a onClick={handleFilterKeyChange("reactNative")}>
+                  React Native
+                </a>
+              </li> */}
               <li>
-                <a onClick={handleFilterKeyChange("soundcloud")}>Soundcloud</a>
-              </li>
-              <li>
-                <a onClick={handleFilterKeyChange("image")}>Image</a>
-              </li>
-              <li>
-                <a onClick={handleFilterKeyChange("detail")}>Detail</a>
+                <a onClick={handleFilterKeyChange("design")}>Design</a>
               </li>
             </ul>
           </div>
           <div className="portfolio_list">
             <ul className="gallery_zoom">
-              <li className="filter-item vimeo">
+              <li className="filter-item react">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
                     <div className="main" data-img-url="img/portfolio/1.jpg" />
                   </div>
                   <div className="overlay" />
-                  {vimeo}
                   <div className="details">
-                    <span>Vimeo</span>
-                    <h3>New Laptop</h3>
+                    <span>Amazon (Look-alike)</span>
+                    <h3>eCommerce Platform</h3>
                   </div>
-                  <a
-                    className="aali_tm_full_link popup-vimeo"
-                    href="#"
-                    onClick={() => showPopup("vimeo", "337293658")}
-                  />
                 </div>
               </li>
-              <li className="filter-item youtube">
+              <li className="filter-item react">
+                <div className="list_inner">
+                  <div className="image">
+                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <div className="main" data-img-url="img/portfolio/1.jpg" />
+                  </div>
+                  <div className="overlay" />
+                  <div className="details">
+                    <span>Netflix (Look-alike)</span>
+                    <h3>Streaming Platform</h3>
+                  </div>
+                </div>
+              </li>
+              <li className="filter-item react">
+                <div className="list_inner">
+                  <div className="image">
+                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <div className="main" data-img-url="img/portfolio/1.jpg" />
+                  </div>
+                  <div className="overlay" />
+                  <div className="details">
+                    <span>Slack (Look-alike)</span>
+                    <h3>Communication Platform</h3>
+                  </div>
+                </div>
+              </li>
+              <li className="filter-item react">
+                <div className="list_inner">
+                  <div className="image">
+                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <div className="main" data-img-url="img/portfolio/1.jpg" />
+                  </div>
+                  <div className="overlay" />
+                  <div className="details">
+                    <span>Twitter (Look-alike)</span>
+                    <h3>Social Networking Platform</h3>
+                  </div>
+                </div>
+              </li>
+              <li className="filter-item react">
+                <div className="list_inner">
+                  <div className="image">
+                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <div className="main" data-img-url="img/portfolio/1.jpg" />
+                  </div>
+                  <div className="overlay" />
+                  <div className="details">
+                    <span>CW Technologies, LLC</span>
+                    <h3>My Company</h3>
+                  </div>
+                </div>
+              </li>
+              <li className="filter-item next">
                 <div className="list_inner">
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="aali image" />
                     <div className="main" data-img-url="img/portfolio/2.jpg" />
                   </div>
                   <div className="overlay" />
-                  {youtube}
                   <div className="details">
-                    <span>Youtube</span>
-                    <h3>Best Phone</h3>
+                    <span>Chris Warren</span>
+                    <h3>This Website</h3>
                   </div>
-                  <a
-                    className="aali_tm_full_link popup-youtube"
-                    href="#"
-                    onClick={() => showPopup("youtube", "7e90gBu4pas")}
-                  />
                 </div>
               </li>
               <li className="filter-item soundcloud">
@@ -143,20 +182,23 @@ const Portfolio = () => {
                   />
                 </div>
               </li>
-              <li className="filter-item detail">
+              <li className="filter-item design">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
+                    <img
+                      src="img/portfolio/mySandwich/thumb/MySandwich-thumb.png"
+                      alt="My Sandwich"
+                    />
                     <div
                       className="main"
-                      data-img-url="img/portfolio/mySandwich/MySandwich.webp"
+                      data-img-url="img/portfolio/mySandwich/thumb/MySandwich-thumb.png"
                     />
                   </div>
                   <div className="overlay" />
                   {text}
                   <div className="details">
-                    <span>My Sandwich</span>
-                    <h3>Google UX Design Professional</h3>
+                    <span>Google UX Design Professional</span>
+                    <h3>My Sandwich</h3>
                   </div>
                   <a
                     className="aali_tm_full_link portfolio_popup"
@@ -265,36 +307,23 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-              <li className="filter-item image">
+              <li className="filter-item design">
                 <div className="list_inner">
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
-                    <div className="main" data-img-url="img/portfolio/5.jpg" />
-                  </div>
-                  <div className="overlay" />
-                  {maximize}
-                  <div className="details">
-                    <span>Image</span>
-                    <h3>Mockup Camera</h3>
-                  </div>
-                  <a
-                    className="aali_tm_full_link zoom"
-                    href="#"
-                    onClick={() => showPopup("image", "img/portfolio/5.jpg")}
-                  />
-                </div>
-              </li>
-              <li className="filter-item detail">
-                <div className="list_inner">
-                  <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
-                    <div className="main" data-img-url="img/portfolio/6.jpg" />
+                    <img
+                      src="img/portfolio/diyProjects/thumb/DIYProjects-thumb.png"
+                      alt="DIY Projects"
+                    />
+                    <div
+                      className="main"
+                      data-img-url="img/portfolio/diyProjects/thumb/DIYProjects-thumb.png"
+                    />
                   </div>
                   <div className="overlay" />
                   {text}
                   <div className="details">
-                    <span>Detail</span>
-                    <h3>Good Present</h3>
+                    <span>Google UX Design Professional</span>
+                    <h3>DIY Projects</h3>
                   </div>
                   <a
                     className="aali_tm_full_link portfolio_popup"
@@ -312,8 +341,8 @@ const Portfolio = () => {
                           ></div>
                         </div>
                         <div className="portfolio_main_title">
-                          <span>Detail</span>
-                          <h3>Good Present</h3>
+                          <span>DIY Projects</span>
+                          <h3>Google UX Design Professional</h3>
                           <div></div>
                         </div>
                         <div className="main_details">
