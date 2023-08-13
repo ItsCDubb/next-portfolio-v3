@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fb, insta, msg, twitter } from "../svgImage";
+import { insta, msg, twitter } from "../svgImage";
 import { parallax } from "../utilits";
 
 const Home = () => {
