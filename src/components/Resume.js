@@ -21,9 +21,9 @@ const Resume = () => {
                 <h3>More info</h3>
                 <p>
                   I've been a software engineer & ui/ux designer for a long time
-                  now. In my career I've developed for desktop, web, & mobile,
-                  which gives me a unique perspective that allows me to make
-                  your project a successful one.
+                  now. In my career I&#39;ve developed for desktop, web, &
+                  mobile, which gives me a unique perspective that allows me to
+                  make your project a successful one.
                 </p>
               </div>
               <div className="content_inner">
