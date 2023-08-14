@@ -7,7 +7,7 @@ const MobileMenu = () => {
       <div className="mobile_menu_inner">
         <div className="mobile_in">
           <div className="logo">
-            <a href="#">
+            <a href="#home">
               <img src="img/logo/logo-dark.png" alt="Chris Warren Logo" />
             </a>
           </div>
@@ -31,11 +31,6 @@ const MobileMenu = () => {
         <div className="dropdown_inner">
           <ul className="anchor_nav">
             <li className="current">
-              <a onClick={() => setToggle(false)} href="#home">
-                Home
-              </a>
-            </li>
-            <li>
               <a onClick={() => setToggle(false)} href="#about">
                 About Me
               </a>
