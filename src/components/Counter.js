@@ -12,15 +12,7 @@ const Counter = () => {
                   <div className="wrapper">
                     <div className="value">
                       <span className="abs">
-                        {/* <span
-                          className="tm_counter"
-                          data-from={0}
-                          data-to={5}
-                          data-speed={1200}
-                        >
-                          0
-                        </span> */}
-                        <ReactCounter end={30} />
+                        <ReactCounter end={16} />
                         <label className="big">+</label>
                       </span>
                     </div>
