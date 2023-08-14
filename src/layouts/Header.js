@@ -20,9 +20,9 @@ const Header = ({ dark }) => {
           </div>
           <div className="menu">
             <ul className="anchor_nav">
-              <li className="current">
+              {/* <li className="current">
                 <a href="#home">Home</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#about">About Me</a>
               </li>

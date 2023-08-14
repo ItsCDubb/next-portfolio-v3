@@ -96,11 +96,11 @@ const Home = () => {
             <div className="avatar parallax" style={{ position: "absolute" }}>
               <div className="main">
                 <img
-                  src="img/hero/selfie.png"
+                  src="img/hero/selfie-hero.png"
                   alt="image"
                   className="layer"
                   data-depth="0.1"
-                  height={800}
+                  height={500}
                 />
               </div>
               <span className="one">

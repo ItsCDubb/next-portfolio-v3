@@ -16,7 +16,6 @@ const Skills = () => {
                 data-text-align="left"
                 data-color="light"
               >
-                <span>My Skills</span>
                 <h3>
                   If you can imagine it
                   <br /> I can build it!
@@ -29,7 +28,7 @@ const Skills = () => {
             </div>
             <div className="right wow fadeInRight" data-wow-duration="1s">
               <div className="dodo_progress">
-                <div className="progress_inner skillsInner___" data-value={86}>
+                <div className="progress_inner skillsInner___" data-value={100}>
                   <span>
                     <span className="label">React</span>
                   </span>
@@ -39,7 +38,7 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner skillsInner___" data-value={90}>
+                <div className="progress_inner skillsInner___" data-value={100}>
                   <span>
                     <span className="label">React Native</span>
                   </span>
@@ -49,7 +48,7 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner skillsInner___" data-value={66}>
+                <div className="progress_inner skillsInner___" data-value={100}>
                   <span>
                     <span className="label">HTML/CSS/JavaSricpt</span>
                   </span>

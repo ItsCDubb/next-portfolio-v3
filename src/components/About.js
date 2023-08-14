@@ -31,7 +31,7 @@ const About = () => {
                 {`I'm`} <span>Chris</span>
               </h3>
               <h3>
-                Front-End <span>developer</span>
+                front-end <span>developer</span>
               </h3>
               <span className="subtitle">Based in the United States</span>
             </div>

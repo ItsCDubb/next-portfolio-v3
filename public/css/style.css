@@ -575,7 +575,7 @@ h6 {
   font-weight: 700;
   position: relative;
   padding: 15px 73px 15px 46px;
-  border-radius: 6px;
+  border-radius: 15px;
   border: 2px solid #0ba376;
   white-space: nowrap;
 
@@ -681,7 +681,7 @@ h6 {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  width: 37%;
+  width: 50%;
   z-index: 1;
 }
 .aali_tm_hero .avatar .main {

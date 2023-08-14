@@ -17,8 +17,7 @@ const Resume = () => {
                 data-text-align="left"
                 data-color="dark"
               >
-                <span>Know More</span>
-                <h3>My Resume</h3>
+                <h3>More info</h3>
                 <p>
                   I've been a software engineer & UI/UX designer for over 30
                   years now. I've developed for desktop, web, & mobile in my
