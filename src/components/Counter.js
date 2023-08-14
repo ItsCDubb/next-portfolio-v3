@@ -13,14 +13,16 @@ const Counter = () => {
                     <div className="value">
                       <span className="abs">
                         <ReactCounter end={16} />
-                        <label className="big">+</label>
+                        <label className="small">+</label>
                       </span>
                     </div>
                     <div className="text">
                       <h3>
                         Years of
                         <br />
-                        web experience
+                        web development
+                        <br />
+                        experience
                       </h3>
                     </div>
                   </div>
@@ -39,7 +41,9 @@ const Counter = () => {
                       <h3>
                         Years of
                         <br />
-                        mobile experience
+                        mobile development
+                        <br />
+                        experience
                       </h3>
                     </div>
                   </div>
@@ -50,13 +54,13 @@ const Counter = () => {
                   <div className="wrapper">
                     <div className="value">
                       <span className="abs">
-                        <ReactCounter end={350} />
+                        <ReactCounter end={150} />
                         <label className="small">+</label>
                       </span>
                     </div>
                     <div className="text">
                       <h3>
-                        Happy
+                        Satisfied
                         <br />
                         Clients
                       </h3>

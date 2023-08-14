@@ -41,9 +41,9 @@ const About = () => {
               data-wow-delay="0.2s"
             >
               <p>
-                Hi! My name is Chris Warren. I am a web designer & developer, a
-                mobile designer & developer, a UI/UX designer, and {`I'm`} very
-                passionate and dedicated to my work.
+                Hi! I am a web designer & developer, a mobile designer &
+                developer, a ui/ux designer, & I&#39;m very passionate about my
+                work.
               </p>
             </div>
             <div
