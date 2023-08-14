@@ -45,12 +45,6 @@ const About = () => {
                 mobile designer & developer, a UI/UX designer, and {`I'm`} very
                 passionate and dedicated to my work.
               </p>
-              <p>
-                I've been a software engineer & UI/UX designer for a long time.
-                I've developed for desktop, web, & mobile in my career, which
-                gives me a unique perspective in order to make your project a
-                successful one.
-              </p>
             </div>
             <div
               className="aali_tm_button wow fadeInUp"
