@@ -1,4 +1,4 @@
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { call, emailIcon, msgSent } from "../svgImage";
 
@@ -21,7 +21,9 @@ const Contact = () => {
       emailjs
         .send(
           "service_8cmeu8m", // service id
-          "template_9fuzqst" // template id
+          "template_9fuzqst", // template id
+          mailData,
+          "user_7jtxsEF7xkCIm0SGpWUG0" // public api
         )
         .then(
           (response) => {
@@ -49,16 +51,14 @@ const Contact = () => {
             data-text-align="center"
             data-color="dark"
           >
-            <span>Get in Touch</span>
-            <h3>Connect with Me with Confidence</h3>
+            <h3>Let&apos;s connect</h3>
           </div>
           <div className="contact_inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <div className="text">
                 <p>
-                  Please fill out the form on this section to contact with me.
-                  Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through
-                  Friday
+                  Email me directly, fill out the form, or call me between 9 AM
+                  and 7 PM ET, Mon - Fri
                 </p>
               </div>
               <ul>
@@ -66,7 +66,9 @@ const Contact = () => {
                   <div className="list_inner">
                     {call}
                     <span>Call me</span>
-                    <h3>(469) 364-4015</h3>
+                    <h3>
+                      <a href="tel:4693644015">(469) 364-4015</a>
+                    </h3>
                   </div>
                 </li>
                 <li>
@@ -100,9 +102,7 @@ const Contact = () => {
                     style={{ display: error == null ? "none" : "block" }}
                   >
                     <span>
-                      {error
-                        ? "Please Fill Required Fields"
-                        : "Your message has been received, We will contact you soon."}
+                      {error ? "Something went wrong" : "Message Sent!"}
                     </span>
                   </div>
                   <div className="input_list">
@@ -114,14 +114,14 @@ const Contact = () => {
                           name="name"
                           onChange={(e) => onChange(e)}
                           value={name}
-                          placeholder="Your Name"
+                          placeholder="Name..."
                         />
                       </li>
                       <li>
                         <input
                           id="email"
                           type="text"
-                          placeholder="Your Email"
+                          placeholder="Email..."
                           name="email"
                           onChange={(e) => onChange(e)}
                           value={email}
@@ -132,7 +132,7 @@ const Contact = () => {
                   <div className="message_area">
                     <textarea
                       id="message"
-                      placeholder="Message"
+                      placeholder="Message..."
                       name="message"
                       onChange={(e) => onChange(e)}
                       value={message}

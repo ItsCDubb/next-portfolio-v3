@@ -20,10 +20,10 @@ const Resume = () => {
               >
                 <h3>More info</h3>
                 <p>
-                  I've been a software engineer & ui/ux designer for a long time
-                  now. In my career I&#39;ve developed for desktop, web, &
-                  mobile, which gives me a unique perspective that allows me to
-                  make your project a successful one.
+                  I've been a software engineer & ui/ux designer since I left
+                  the military in 2007. Since then I&#39;ve developed for
+                  desktop, web, & mobile, which gives me a unique perspective
+                  that allows me to make your project a successful one.
                 </p>
               </div>
               <div className="content_inner">
@@ -47,8 +47,8 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              This is your path to a career in UX design. In
-                              this program, you&lsquo;ll learn in-demand skills.
+                              In this program, you&lsquo;ll learn in-demand
+                              skills.
                             </p>
                           </div>
                         </div>
@@ -67,8 +67,8 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              The full-stack program prepares web developers who
-                              are experts in frontend and backend systems.
+                              Web developers who are experts in frontend and
+                              backend systems.
                             </p>
                           </div>
                         </div>
@@ -87,14 +87,8 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              The Master of Science degree program in Computer
-                              Science offers software, systems, architecture,
-                              artificial intelligence, and computer science
-                              theory courses. A master’s degree in Computer
-                              Science provides education and creative experience
-                              to prepare graduates for advanced professional
-                              employment in industry, government, or
-                              college-level teaching.
+                              A master&#39;s degree in Computer Science provides
+                              education and creative experience.
                             </p>
                           </div>
                         </div>
@@ -113,15 +107,12 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Gain a broad background in computer science theory
-                              and state-of-the-practice experiences that will
-                              enable you to pursue high technology careers and
-                              higher-level education goals. You'll also gain
+                              You'll gain a broad background in computer science
+                              theory, state-of-the-practice experiences,
                               analytical and problem-solving skills, software
                               design and programming skills, as well as
                               effective writing and presentation skills needed
-                              to work in a collaborative computer science
-                              environment.
+                              to work in a collaborative environment.
                             </p>
                           </div>
                         </div>
@@ -139,7 +130,9 @@ const Resume = () => {
                           <div className="info">
                             <div className="left">
                               <h3>Software Engineer</h3>
-                              <span>CW Technologies, LLC</span>
+                              <span>
+                                Chris Warren Development & CW Technologies, LLC
+                              </span>
                             </div>
                             <div className="right">
                               <span>2007 - present</span>

@@ -17,25 +17,23 @@ const Home = () => {
         <div className="container">
           <div className="hero_inner">
             <div className="content">
-              <span className="hello">Hello, {`I'm`}</span>
+              <span className="hello">Hello, I&#39;m</span>
               <h3 className="name">Chris</h3>
               <div className="job">
                 <span className="cd-headline rotate-1">
-                  {" "}
-                  {/* ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  */}
-                  <span className="blc">& I'm a </span>
+                  <span className="blc">
+                    & I&#39;m a
+                    <br />
+                  </span>
                   <span className="cd-words-wrapper">
                     <b className={text === 1 ? "is-visible" : "is-hidden"}>
-                      web devloper
+                      web dev
                     </b>
                     <b className={text === 2 ? "is-visible" : "is-hidden"}>
-                      mobile devloper
+                      mobile dev
                     </b>
                     <b className={text === 3 ? "is-visible" : "is-hidden"}>
-                      Freelancer
-                    </b>
-                    <b className={text === 4 ? "is-visible" : "is-hidden"}>
-                      UX/UI professional
+                      designer
                     </b>
                   </span>
                 </span>

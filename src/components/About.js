@@ -26,14 +26,12 @@ const About = () => {
           </div>
           <div className="center">
             <div className="title wow fadeInUp" data-wow-duration="1s">
-              <span className="small">About Me</span>
               <h3>
-                {`I'm`} <span>Chris</span>
+                I&#39;m <span>Chris</span> Warren
               </h3>
               <h3>
-                front-end <span>developer</span>
+                a <span>developer</span>
               </h3>
-              <span className="subtitle">Based in the United States</span>
             </div>
             <div
               className="text wow fadeInUp"
@@ -41,9 +39,8 @@ const About = () => {
               data-wow-delay="0.2s"
             >
               <p>
-                Hi! I am a web designer & developer, a mobile designer &
-                developer, a ui/ux designer, & I&#39;m very passionate about my
-                work.
+                Hi! I&#39;m a web and mobile designer & developer, a ui/ux
+                designer, & very passionate about what I do.
               </p>
             </div>
             <div

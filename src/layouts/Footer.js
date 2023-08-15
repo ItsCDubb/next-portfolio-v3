@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="bottom">
               <div className="left">
                 <p>
-                  Designed with love by{" "}
+                  © {new Date().getFullYear()}
                   <Link
                     className="line_anim"
                     href="https://www.chriswarren.dev"
@@ -46,7 +46,7 @@ const Footer = () => {
                   >
                     Chris Warren
                   </Link>{" "}
-                  © {new Date().getFullYear()}
+                  | All rights reserved.
                 </p>
               </div>
             </div>

@@ -253,16 +253,15 @@ const Portfolio = () => {
                     <ModalBox close={setModal}>
                       <div className="popup_details">
                         <div className="top_image">
-                          <img src="img/thumbs/4-2.jpg" alt="" />
+                          <img src="img/thumbs/4-2.jpg" alt="My Sandwich" />
                           <div
                             className="main"
-                            data-img-url="img/portfolio/mySandwich/MySandwich.webp"
+                            data-img-url="img/portfolio/mySandwich/mySandwich-header.png"
                           ></div>
                         </div>
                         <div className="portfolio_main_title">
                           <span>My Sandwich</span>
                           <h3>Google UX Design Professional</h3>
-                          <div></div>
                         </div>
                         <div className="main_details">
                           <div className="textbox">
@@ -271,37 +270,28 @@ const Portfolio = () => {
                               that allows people to order healthy sandwich
                               choices for them or their family.
                             </p>
-                            <h3>My Role:</h3>
-                            <ul>
-                              <li>Idea</li>
-                              <li>Wireframes</li>
-                              <li>Prototypes</li>
-                              <li>Reasearch</li>
-                              <li>Development</li>
-                              <li>Experience</li>
-                            </ul>
-                            <h3>Project Goal:</h3>
+                            <h4>My Roles:</h4>
+                            <p>Idea</p>
+                            <p>Wireframes</p>
+                            <p>Prototypes</p>
+                            <p>Reasearch</p>
+                            <p>Development</p>
+                            <p>Experience</p>
+                            <h4>The Goal:</h4>
                             <p>
                               To allow busy people to order new & great tasting
                               foods.
                             </p>
-                            <h3>Target Audience</h3>
+                            <h4>Target Audience:</h4>
                             <p>
                               Busy people that want to order something quick &
                               healthy.
                             </p>
-                            <h3>Constraints:</h3>
+                            <h4>Constraints:</h4>
                             <p>
-                              Anyone that orders sandwiches at least once a
-                              week.
-                            </p>
-                            <p>Must reside in a city or a town.</p>
-                            <p>
-                              Must have a fairly even distribution of genders,
-                              one user of ATs, one user with a visual
-                              impairment, two users who aren&#39;t fluent in
-                              English, one user who is a young professional, &
-                              one user who is an advanced professional
+                              Honestly, for this particular project there
+                              weren't any constraints or challenges for me to
+                              overcome.
                             </p>
                           </div>
                           <div className="detailbox">
@@ -320,23 +310,22 @@ const Portfolio = () => {
                                 <span className="first">Date</span>
                                 <span>April, 2023</span>
                               </li>
-                              <li></li>
                             </ul>
                           </div>
                         </div>
                         <div className="additional_images">
-                          <h3>Wireframes:</h3>
+                          <h4>Wireframes:</h4>
                           <ul>
                             <li>
                               <div className="list_inner">
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="My Sandwich Wireframes 1"
                                   />
                                   <div
                                     className="main"
-                                    data-img-url="img/portfolio/mySandwich/MySandwich.webp"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes1.png"
                                   />
                                 </div>
                               </div>
@@ -346,11 +335,11 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="My Sandwich Wireframes 2"
                                   />
                                   <div
                                     className="main"
-                                    data-img-url="img/portfolio/2.jpg"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes2.png"
                                   />
                                 </div>
                               </div>
@@ -360,14 +349,127 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="My Sandwich Wireframes 3"
                                   />
                                   <div
                                     className="main"
-                                    data-img-url="img/portfolio/3.jpg"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes3.png"
                                   />
                                 </div>
                               </div>
+                            </li>
+                          </ul>
+                          <h4>User Testing:</h4>
+                          <h5>Round 1:</h5>
+                          <p>
+                            People found it difficult to navigate to the add
+                            ingredient screen.
+                          </p>
+                          <p>People like the ordering process.</p>
+                          <p>People like being able to track their order.</p>
+                          <br />
+                          <h4>Mockups:</h4>
+                          <ul>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/portfolio/mySandwich/mockups/mySandwich-mockups1.png"
+                                    alt="My Sandwich Mockups"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/mockups/mySandwich-mockups1.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/portfolio/mySandwich/mockups/mySandwich-mockups2.png"
+                                    alt="My Sandwich Mockups"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/mockups/mySandwich-mockups2.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/portfolio/mySandwich/mockups/mySandwich-mockups3.png"
+                                    alt="My Sandwich Mockups"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/mockups/mySandwich-mockups3.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/portfolio/mySandwich/mockups/mySandwich-mockups4.png"
+                                    alt="My Sandwich Mockups"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/mockups/mySandwich-mockups4.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <h4>User Testing:</h4>
+                          <h5>Round 2:</h5>
+                          <p>
+                            People found it upsetting that there wasn&#39;t a
+                            place for them to view what was already added.
+                          </p>
+                          <p>People like the process as a whole.</p>
+                          <p>People like how easy the app is to use.</p>
+                          <br />
+                          <h5>Impact:</h5>
+                          <p>
+                            The impact of my designs really wasn&#39;t about the
+                            project itself, but openin up avenues that people
+                            didn&#39;t even know were possible was.{" "}
+                          </p>
+                          <p>
+                            "This was an easy task" was something that I really
+                            liked hearing & made an impact on me.
+                          </p>
+                          <br />
+                          <h5>What I learned:</h5>
+                          <p>
+                            Throughout this project I learned the value of
+                            making my designs easily accessible for people to
+                            use regardless of what their ability level is.
+                          </p>
+                          <br />
+                          <h5>Next steps:</h5>
+                          <ul>
+                            <li>
+                              I would like to add a feature that shows a user
+                              their previously favorited items, in order to make
+                              it easier to find & order in the future.
+                            </li>
+                            <li>
+                              I would like to add an order page so that people
+                              can know what they&#39;ve previously ordered & go
+                              through the process of ordering their food.
+                            </li>
+                            <li>
+                              I think making all the ingredients & signatures
+                              real life pictures would be helpful in future
+                              designs
                             </li>
                           </ul>
                         </div>
@@ -403,7 +505,7 @@ const Portfolio = () => {
                     <ModalBox close={setModal}>
                       <div className="popup_details">
                         <div className="top_image">
-                          <img src="img/thumbs/4-2.jpg" alt="" />
+                          <img src="img/thumbs/4-2.jpg" alt="My Sandwich" />
                           <div
                             className="main"
                             data-img-url="img/portfolio/diyProjects/DIYProjects.webp"
@@ -412,160 +514,36 @@ const Portfolio = () => {
                         <div className="portfolio_main_title">
                           <span>DIY Projects</span>
                           <h3>Google UX Design Professional</h3>
-                          <div></div>
                         </div>
                         <div className="main_details">
                           <div className="textbox">
                             <p>
-                              We live in a world where we need to move quickly
-                              and iterate on our ideas as flexibly as possible.
-                              Building mockups strikes the ideal balance ease of
-                              modification.
+                              This is the case study for DIY Projects, a product
+                              that allows people to find diy projects to work
+                              on.
                             </p>
+                            <h4>My Roles:</h4>
+                            <p>Idea</p>
+                            <p>Wireframes</p>
+                            <p>Prototypes</p>
+                            <p>Reasearch</p>
+                            <p>Development</p>
+                            <p>Experience</p>
+                            <h4>The Goal:</h4>
                             <p>
-                              Mockups are useful both for the creative phase of
-                              the project - for instance when {`you're`} trying
-                              to figure out your user flows or the proper visual
-                              hierarchy - and the production phase when they
-                              will represent the target product.
+                              To allow busy people to order new & great tasting
+                              foods.
                             </p>
-                          </div>
-                          <div className="detailbox">
-                            <ul>
-                              <li>
-                                <span className="first">Client</span>
-                                <span>Alvaro Morata</span>
-                              </li>
-                              <li>
-                                <span className="first">Category</span>
-                                <span>
-                                  <a href="#">Detail</a>
-                                </span>
-                              </li>
-                              <li>
-                                <span className="first">Date</span>
-                                <span>March 07, 2021</span>
-                              </li>
-                              <li>
-                                <span className="first">Share</span>
-                                <ul className="share">
-                                  <li>
-                                    <a href="#">{fb}</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">{twitter}</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">{insta}</a>
-                                  </li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="additional_images">
-                          <ul>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/1.jpg"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/2.jpg"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/3.jpg"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </ModalBox>
-                  </div>
-                </div>
-              </li>
-              <li className="filter-item design">
-                <div className="list_inner">
-                  <div className="image">
-                    <img
-                      src="img/portfolio/nutritionFacts/thumb/nutrionfacts-thumb.png"
-                      alt="My Sandwich"
-                    />
-                    <div
-                      className="main"
-                      data-img-url="img/portfolio/nutritionFacts/thumb/nutrionfacts-thumb.png"
-                    />
-                  </div>
-                  <div className="overlay" />
-                  {text}
-                  <div className="details">
-                    <span>Google UX Design Professional</span>
-                    <h3>Nutrition Facts</h3>
-                  </div>
-                  <a
-                    className="aali_tm_full_link portfolio_popup"
-                    href="#"
-                    onClick={() => setModal(3)}
-                  />
-                  <div className={modal === 3 ? "" : "hidden_content"}>
-                    <ModalBox close={setModal}>
-                      <div className="popup_details">
-                        <div className="top_image">
-                          <img src="img/thumbs/4-2.jpg" alt="" />
-                          <div
-                            className="main"
-                            data-img-url="img/portfolio/nutritionFacts/NutrionFacts.webp"
-                          ></div>
-                        </div>
-                        <div className="portfolio_main_title">
-                          <span>Nutrition Facts</span>
-                          <h3>Google UX Design Professional</h3>
-                          <div></div>
-                        </div>
-                        <div className="main_details">
-                          <div className="textbox">
+                            <h4>Target Audience:</h4>
                             <p>
-                              We live in a world where we need to move quickly
-                              and iterate on our ideas as flexibly as possible.
-                              Building mockups strikes the ideal balance ease of
-                              modification.
+                              Busy people that want to order something quick &
+                              healthy.
                             </p>
+                            <h4>Constraints:</h4>
                             <p>
-                              Mockups are useful both for the creative phase of
-                              the project - for instance when {`you're`} trying
-                              to figure out your user flows or the proper visual
-                              hierarchy - and the production phase when they
-                              will represent the target product.
+                              Honestly, for this particular project there
+                              weren't any constraints or challenges for me to
+                              overcome.
                             </p>
                           </div>
                           <div className="detailbox">
@@ -577,18 +555,72 @@ const Portfolio = () => {
                               <li>
                                 <span className="first">Category</span>
                                 <span>
-                                  <a href="#">App</a>
+                                  <a href="#">Website</a>
                                 </span>
                               </li>
                               <li>
                                 <span className="first">Date</span>
-                                <span>April, 2023</span>
+                                <span>May, 2023</span>
                               </li>
-                              <li></li>
                             </ul>
                           </div>
                         </div>
                         <div className="additional_images">
+                          <h4>Wireframes:</h4>
+                          <ul>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="My Sandwich Wireframes 1"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes1.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="My Sandwich Wireframes 2"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes2.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="My Sandwich Wireframes 3"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes3.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <h4>User Testing:</h4>
+                          <h5>Round 1:</h5>
+                          <p>
+                            People found it difficult to navigate to the add
+                            ingredient screen.
+                          </p>
+                          <p>People like the ordering process.</p>
+                          <p>People like being able to track their order.</p>
+                          <br />
+                          <h4>Mockups:</h4>
                           <ul>
                             <li>
                               <div className="list_inner">
@@ -631,6 +663,289 @@ const Portfolio = () => {
                                   />
                                 </div>
                               </div>
+                            </li>
+                          </ul>
+                          <h4>User Testing:</h4>
+                          <h5>Round 2:</h5>
+                          <p>
+                            People found it upsetting that there wasn&#39;t a
+                            place for them to view what was already added.
+                          </p>
+                          <p>People like the process as a whole.</p>
+                          <p>People like how easy the app is to use.</p>
+                          <br />
+                          <h5>Impact:</h5>
+                          <p>
+                            The impact of my designs really wasn&#39;t about the
+                            project itself, but openin up avenues that people
+                            didn&#39;t even know were possible was.{" "}
+                          </p>
+                          <p>
+                            "This was an easy task" was something that I really
+                            liked hearing & made an impact on me.
+                          </p>
+                          <br />
+                          <h5>What I learned:</h5>
+                          <p>
+                            Throughout this project I learned the value of
+                            making my designs easily accessible for people to
+                            use regardless of what their ability level is.
+                          </p>
+                          <br />
+                          <h5>Next steps:</h5>
+                          <ul>
+                            <li>
+                              I would like to add a feature that shows a user
+                              their previously favorited items, in order to make
+                              it easier to find & order in the future.
+                            </li>
+                            <li>
+                              I would like to add an order page so that people
+                              can know what they&#39;ve previously ordered & go
+                              through the process of ordering their food.
+                            </li>
+                            <li>
+                              I think making all the ingredients & signatures
+                              real life pictures would be helpful in future
+                              designs
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </ModalBox>
+                  </div>
+                </div>
+              </li>
+              <li className="filter-item design">
+                <div className="list_inner">
+                  <div className="image">
+                    <img
+                      src="img/portfolio/nutritionFacts/thumb/nutrionfacts-thumb.png"
+                      alt="My Sandwich"
+                    />
+                    <div
+                      className="main"
+                      data-img-url="img/portfolio/nutritionFacts/thumb/nutrionfacts-thumb.png"
+                    />
+                  </div>
+                  <div className="overlay" />
+                  {text}
+                  <div className="details">
+                    <span>Google UX Design Professional</span>
+                    <h3>Nutrition Facts</h3>
+                  </div>
+                  <a
+                    className="aali_tm_full_link portfolio_popup"
+                    href="#"
+                    onClick={() => setModal(3)}
+                  />
+                  <div className={modal === 3 ? "" : "hidden_content"}>
+                    <ModalBox close={setModal}>
+                      <div className="popup_details">
+                        <div className="top_image">
+                          <img src="img/thumbs/4-2.jpg" alt="My Sandwich" />
+                          <div
+                            className="main"
+                            data-img-url="img/portfolio/nutritionFacts/NutrionFacts.webp"
+                          ></div>
+                        </div>
+                        <div className="portfolio_main_title">
+                          <span>Nutriton Facts</span>
+                          <h3>Google UX Design Professional</h3>
+                        </div>
+                        <div className="main_details">
+                          <div className="textbox">
+                            <p>
+                              This is the case study for nutrition facts, a
+                              product that allows people to find nutrition
+                              information on different ingredients.
+                            </p>
+                            <h4>My Roles:</h4>
+                            <p>Idea</p>
+                            <p>Wireframes</p>
+                            <p>Prototypes</p>
+                            <p>Reasearch</p>
+                            <p>Development</p>
+                            <p>Experience</p>
+                            <h4>The Goal:</h4>
+                            <p>
+                              To allow busy people to order new & great tasting
+                              foods.
+                            </p>
+                            <h4>Target Audience:</h4>
+                            <p>
+                              Busy people that want to order something quick &
+                              healthy.
+                            </p>
+                            <h4>Constraints:</h4>
+                            <p>
+                              Honestly, for this particular project there
+                              weren't any constraints or challenges for me to
+                              overcome.
+                            </p>
+                          </div>
+                          <div className="detailbox">
+                            <ul>
+                              <li>
+                                <span className="first">Certificate</span>
+                                <span>Google UX Design Professional</span>
+                              </li>
+                              <li>
+                                <span className="first">Category</span>
+                                <span>
+                                  <a href="#">App & Website</a>
+                                </span>
+                              </li>
+                              <li>
+                                <span className="first">Date</span>
+                                <span>May, 2023</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="additional_images">
+                          <h4>Wireframes:</h4>
+                          <ul>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="My Sandwich Wireframes 1"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes1.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="My Sandwich Wireframes 2"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes2.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="My Sandwich Wireframes 3"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes3.png"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <h4>User Testing:</h4>
+                          <h5>Round 1:</h5>
+                          <p>
+                            People found it difficult to navigate to the add
+                            ingredient screen.
+                          </p>
+                          <p>People like the ordering process.</p>
+                          <p>People like being able to track their order.</p>
+                          <br />
+                          <h4>Mockups:</h4>
+                          <ul>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="aali image"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/mySandwich/MySandwich.webp"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="aali image"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/2.jpg"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div className="list_inner">
+                                <div className="my_image">
+                                  <img
+                                    src="img/thumbs/4-2.jpg"
+                                    alt="aali image"
+                                  />
+                                  <div
+                                    className="main"
+                                    data-img-url="img/portfolio/3.jpg"
+                                  />
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                          <h4>User Testing:</h4>
+                          <h5>Round 2:</h5>
+                          <p>
+                            People found it upsetting that there wasn&#39;t a
+                            place for them to view what was already added.
+                          </p>
+                          <p>People like the process as a whole.</p>
+                          <p>People like how easy the app is to use.</p>
+                          <br />
+                          <h5>Impact:</h5>
+                          <p>
+                            The impact of my designs really wasn&#39;t about the
+                            project itself, but openin up avenues that people
+                            didn&#39;t even know were possible was.
+                          </p>
+                          <p>
+                            "This was an easy task" was something that I really
+                            liked hearing & made an impact on me.
+                          </p>
+                          <br />
+                          <h5>What I learned:</h5>
+                          <p>
+                            Throughout this project I learned the value of
+                            making my designs easily accessible for people to
+                            use regardless of what their ability level is.
+                          </p>
+                          <br />
+                          <h5>Next steps:</h5>
+                          <ul>
+                            <li>
+                              I would like to add a feature that shows a user
+                              their previously favorited items, in order to make
+                              it easier to find & order in the future.
+                            </li>
+                            <li>
+                              I would like to add an order page so that people
+                              can know what they&#39;ve previously ordered & go
+                              through the process of ordering their food.
+                            </li>
+                            <li>
+                              I think making all the ingredients & signatures
+                              real life pictures would be helpful in future
+                              designs
                             </li>
                           </ul>
                         </div>
