@@ -308,7 +308,7 @@ const Portfolio = () => {
                               </li>
                               <li>
                                 <span className="first">Date</span>
-                                <span>April, 2023</span>
+                                <span>April - June, 2023</span>
                               </li>
                             </ul>
                           </div>
@@ -439,8 +439,8 @@ const Portfolio = () => {
                           <h5>Impact:</h5>
                           <p>
                             The impact of my designs really wasn&#39;t about the
-                            project itself, but openin up avenues that people
-                            didn&#39;t even know were possible was.{" "}
+                            project itself, but opening up avenues that people
+                            didn&#39;t even know were possible was.
                           </p>
                           <p>
                             "This was an easy task" was something that I really
@@ -508,7 +508,7 @@ const Portfolio = () => {
                           <img src="img/thumbs/4-2.jpg" alt="My Sandwich" />
                           <div
                             className="main"
-                            data-img-url="img/portfolio/diyProjects/DIYProjects.webp"
+                            data-img-url="img/portfolio/diyProjects/diyProjects-header.png"
                           ></div>
                         </div>
                         <div className="portfolio_main_title">
@@ -528,16 +528,13 @@ const Portfolio = () => {
                             <p>Prototypes</p>
                             <p>Reasearch</p>
                             <p>Development</p>
-                            <p>Experience</p>
+                            <p>Creating the Experience</p>
                             <h4>The Goal:</h4>
-                            <p>
-                              To allow busy people to order new & great tasting
-                              foods.
-                            </p>
+                            <p>To allow people to find a project to work on.</p>
                             <h4>Target Audience:</h4>
                             <p>
-                              Busy people that want to order something quick &
-                              healthy.
+                              People who can&#39;t find a project to work on
+                              without being overwhelmed.
                             </p>
                             <h4>Constraints:</h4>
                             <p>
@@ -560,7 +557,7 @@ const Portfolio = () => {
                               </li>
                               <li>
                                 <span className="first">Date</span>
-                                <span>May, 2023</span>
+                                <span>June - July, 2023</span>
                               </li>
                             </ul>
                           </div>
@@ -614,11 +611,17 @@ const Portfolio = () => {
                           <h4>User Testing:</h4>
                           <h5>Round 1:</h5>
                           <p>
-                            People found it difficult to navigate to the add
-                            ingredient screen.
+                            People found it easy to navigate to the different
+                            projects.
                           </p>
-                          <p>People like the ordering process.</p>
-                          <p>People like being able to track their order.</p>
+                          <p>
+                            People like finding projects that they can do in a
+                            weekend.
+                          </p>
+                          <p>
+                            Users like being able to search for various
+                            projects.
+                          </p>
                           <br />
                           <h4>Mockups:</h4>
                           <ul>
@@ -627,7 +630,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="DIY Projects Digital Wireframe"
                                   />
                                   <div
                                     className="main"
@@ -641,7 +644,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="DIY Projects Digital Wireframe"
                                   />
                                   <div
                                     className="main"
@@ -655,7 +658,7 @@ const Portfolio = () => {
                                 <div className="my_image">
                                   <img
                                     src="img/thumbs/4-2.jpg"
-                                    alt="aali image"
+                                    alt="DIY Projects Digital Wireframe"
                                   />
                                   <div
                                     className="main"
@@ -669,45 +672,41 @@ const Portfolio = () => {
                           <h5>Round 2:</h5>
                           <p>
                             People found it upsetting that there wasn&#39;t a
-                            place for them to view what was already added.
+                            place for them to view what projects they had
+                            already worked on.
                           </p>
-                          <p>People like the process as a whole.</p>
-                          <p>People like how easy the app is to use.</p>
+                          <p>People like the site as a whole.</p>
+                          <p>
+                            People like how easy the site is to use as a whole.
+                          </p>
                           <br />
                           <h5>Impact:</h5>
                           <p>
                             The impact of my designs really wasn&#39;t about the
-                            project itself, but openin up avenues that people
-                            didn&#39;t even know were possible was.{" "}
+                            project itself, but opening up avenues for users to
+                            find projects they could do themselves.
                           </p>
                           <p>
-                            "This was an easy task" was something that I really
-                            liked hearing & made an impact on me.
+                            “That was a fun experience.” really impacted me.
                           </p>
                           <br />
                           <h5>What I learned:</h5>
                           <p>
-                            Throughout this project I learned the value of
-                            making my designs easily accessible for people to
-                            use regardless of what their ability level is.
+                            I learned how to make my websites responsive &
+                            another tool to use in my tool box
                           </p>
                           <br />
                           <h5>Next steps:</h5>
                           <ul>
                             <li>
-                              I would like to add a feature that shows a user
-                              their previously favorited items, in order to make
-                              it easier to find & order in the future.
+                              Conduct more usability testing on the new website.
                             </li>
                             <li>
-                              I would like to add an order page so that people
-                              can know what they&#39;ve previously ordered & go
-                              through the process of ordering their food.
+                              Build more of the website & make it functional.
                             </li>
                             <li>
-                              I think making all the ingredients & signatures
-                              real life pictures would be helpful in future
-                              designs
+                              Identify any other areas that cause problems for
+                              users & ideate on how to fix them creatively.
                             </li>
                           </ul>
                         </div>
