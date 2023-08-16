@@ -315,50 +315,17 @@ const Portfolio = () => {
                         </div>
                         <div className="additional_images">
                           <h4>Wireframes:</h4>
-                          <ul>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 1"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes1.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 2"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes2.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 3"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes3.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
+                          <p>
+                            <a
+                              href="https://www.figma.com/file/WZYnaj5tNoeYsBAoRMS7P5/My-Sandwich?type=design&node-id=0-1&mode=design&t=IMXAmFXJxClaStYF-0"
+                              target="_blank"
+                              rel="noopener noreferrer nofollow"
+                              className="porfolio_popup_link"
+                            >
+                              My Sandwich Wireframes
+                            </a>
+                          </p>
+                          <br />
                           <h4>User Testing:</h4>
                           <h5>Round 1:</h5>
                           <p>
@@ -371,8 +338,8 @@ const Portfolio = () => {
                           <h4>Mockups:</h4>
                           <p>
                             <a
-                              href="bit.ly/3qVeLKM"
-                              target="_blan"
+                              href="https://www.figma.com/proto/WZYnaj5tNoeYsBAoRMS7P5/My-Sandwich?type=design&node-id=375-888&t=7H0CeRssjzSDqTsZ-1&scaling=scale-down&page-id=375%3A856&starting-point-node-id=420%3A1918&mode=design"
+                              target="_blank"
                               rel="noopener noreferrer nofollow"
                               className="porfolio_popup_link"
                             >
@@ -517,50 +484,37 @@ const Portfolio = () => {
                         </div>
                         <div className="additional_images">
                           <h4>Wireframes:</h4>
-                          <ul>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 1"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes1.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 2"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes2.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 3"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes3.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
+                          <p>
+                            <a
+                              href="https://www.figma.com/file/HVbzIN37qASblk7arA7q6Z/DIY-Projects?type=design&node-id=11-1097&mode=design&t=IMXAmFXJxClaStYF-0"
+                              target="_blank"
+                              rel="noopener noreferrer nofollow"
+                              className="porfolio_popup_link"
+                            >
+                              Android Digital Wireframes (Vertical)
+                            </a>
+                          </p>
+                          <p>
+                            <a
+                              href="https://www.figma.com/file/HVbzIN37qASblk7arA7q6Z/DIY-Projects?type=design&node-id=142-396&mode=design&t=IMXAmFXJxClaStYF-0"
+                              target="_blank"
+                              rel="noopener noreferrer nofollow"
+                              className="porfolio_popup_link"
+                            >
+                              Android Digital Wireframes (Horizonal)
+                            </a>
+                          </p>
+                          <p>
+                            <a
+                              href="https://www.figma.com/file/HVbzIN37qASblk7arA7q6Z/DIY-Projects?type=design&node-id=0-1&mode=design&t=IMXAmFXJxClaStYF-0"
+                              target="_blank"
+                              rel="noopener noreferrer nofollow"
+                              className="porfolio_popup_link"
+                            >
+                              Desktop Digital Wireframe
+                            </a>
+                          </p>
+                          <br />
                           <h4>User Testing:</h4>
                           <h5>Round 1:</h5>
                           <p>
@@ -579,12 +533,12 @@ const Portfolio = () => {
                           <h4>Mockups:</h4>
                           <p>
                             <a
-                              href="bit.ly/46y6uN8"
-                              target="_blan"
+                              href="https://www.figma.com/file/HVbzIN37qASblk7arA7q6Z/DIY-Projects?type=design&node-id=239-1192&mode=design&t=IMXAmFXJxClaStYF-0"
+                              target="_blank"
                               rel="noopener noreferrer nofollow"
                               className="porfolio_popup_link"
                             >
-                              DIY Projects (Hi-Fi) Prototype
+                              Web Prototype
                             </a>
                           </p>
                           <br />
@@ -724,51 +678,18 @@ const Portfolio = () => {
                           </div>
                         </div>
                         <div className="additional_images">
-                          <h4>Wireframes (App):</h4>
-                          <ul>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 1"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes1.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 2"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes2.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 3"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes3.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
+                          <h4>Wireframes:</h4>
+                          <p>
+                            <a
+                              href="https://www.figma.com/file/8VwcCJSGOMLB3N5vgmHFs5/Nutrion-Facts?type=design&node-id=2-5&mode=design&t=IMXAmFXJxClaStYF-0"
+                              target="_blank"
+                              rel="noopener noreferrer nofollow"
+                              className="porfolio_popup_link"
+                            >
+                              Nutrion Facts App Digital Wireframes
+                            </a>
+                          </p>
+                          <br />
                         </div>
                         <h4>User Testing (App):</h4>
                         <h5>Round 1:</h5>
@@ -785,12 +706,12 @@ const Portfolio = () => {
                         <h4>Mockups (App):</h4>
                         <p>
                           <a
-                            href="bit.ly/46y6uN8"
-                            target="_blan"
+                            href="https://www.figma.com/proto/8VwcCJSGOMLB3N5vgmHFs5/Nutrion-Facts?type=design&node-id=21-160&t=IMXAmFXJxClaStYF-0&scaling=scale-down&page-id=21%3A159&starting-point-node-id=21%3A160"
+                            target="_blank"
                             rel="noopener noreferrer nofollow"
                             className="porfolio_popup_link"
                           >
-                            DIY Projects (Hi-Fi) Prototype
+                            Nutrion Facts App Hi-Fi Prototype
                           </a>
                         </p>
                         <br />
@@ -805,50 +726,16 @@ const Portfolio = () => {
                         <br />
                         <div className="additional_images">
                           <h4>Wireframes (Website):</h4>
-                          <ul>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 1"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes1.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 2"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes2.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="list_inner">
-                                <div className="my_image">
-                                  <img
-                                    src="img/thumbs/4-2.jpg"
-                                    alt="My Sandwich Wireframes 3"
-                                  />
-                                  <div
-                                    className="main"
-                                    data-img-url="img/portfolio/mySandwich/wireframes/mySandwich-wireframes3.png"
-                                  />
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
+                          <p>
+                            <a
+                              href="https://www.figma.com/file/8VwcCJSGOMLB3N5vgmHFs5/Nutrion-Facts?type=design&node-id=1-27&mode=design&t=IMXAmFXJxClaStYF-0"
+                              target="_blank"
+                              rel="noopener noreferrer nofollow"
+                              className="porfolio_popup_link"
+                            >
+                              Nutrion Facts Web Digital Wireframes
+                            </a>
+                          </p>
                         </div>
                         <h4>User Testing (Website):</h4>
                         <h5>Round 1:</h5>
@@ -866,34 +753,34 @@ const Portfolio = () => {
                         <h5>Desktop</h5>
                         <p>
                           <a
-                            href="bit.ly/46y6uN8"
-                            target="_blan"
+                            href="https://www.figma.com/proto/8VwcCJSGOMLB3N5vgmHFs5/Nutrion-Facts?type=design&node-id=152-3219&t=IMXAmFXJxClaStYF-0&scaling=scale-down&page-id=132%3A2380&starting-point-node-id=152%3A3212"
+                            target="_blank"
                             rel="noopener noreferrer nofollow"
                             className="porfolio_popup_link"
                           >
-                            Google UX design Hi-Fi Prototype
+                            Hi-Fi Prototype
                           </a>
                         </p>
                         <h5>Tablet</h5>
                         <p>
                           <a
-                            href="bit.ly/3Y6DYhL"
+                            href="https://www.figma.com/proto/8VwcCJSGOMLB3N5vgmHFs5/Nutrion-Facts?type=design&node-id=165-3930&t=IMXAmFXJxClaStYF-0&scaling=scale-down&page-id=165%3A3910&starting-point-node-id=165%3A3930&show-proto-sidebar=1"
                             target="_blan"
                             rel="noopener noreferrer nofollow"
                             className="porfolio_popup_link"
                           >
-                            Google UX design Hi-Fi Prototype (Tablet)
+                            Hi-Fi Prototype
                           </a>
                         </p>
                         <h5>Phone</h5>
                         <p>
                           <a
-                            href="bit.ly/3Y6DYhL"
-                            target="_blan"
+                            href="https://www.figma.com/proto/8VwcCJSGOMLB3N5vgmHFs5/Nutrion-Facts?type=design&node-id=182-4318&t=IMXAmFXJxClaStYF-0&scaling=scale-down&page-id=182%3A4317&starting-point-node-id=182%3A4318"
+                            target="_blank"
                             rel="noopener noreferrer nofollow"
                             className="porfolio_popup_link"
                           >
-                            Google UX design Hi-Fi Prototype (Phone)
+                            Hi-Fi Prototype
                           </a>
                         </p>
                         <br />
